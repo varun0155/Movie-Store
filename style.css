@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h2{
+    text-align: center;
+}
+
+#inner-movie-box , #inner-fav-movie-box {
+    width: 40%;
+}
+
+
+img{
+    display: block;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+
+li > div {
+    height: 40px;
+    width: 298px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
